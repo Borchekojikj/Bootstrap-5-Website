@@ -1,0 +1,114 @@
+/* Home Webpage */
+
+
+            /* Narbar */
+.font-size-12 {
+    font-size: 12px !important;
+}
+
+.logo:hover {
+    color: white !important ;
+}
+
+a{
+    padding-left: 15px !important;
+}
+
+.border-none {
+    border: none;
+}
+
+
+            /* Banner */
+
+.carousel-caption {
+ top: 50%;
+ bottom: auto;
+ left: 20%;
+ right: 20%;
+ transform: translateY(-50%);
+ 
+}
+
+.carousel-img-custom {
+    height: 50vh !important;
+}
+
+.parallax {
+    background-image: url(./images/lights.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-color: rgb(175, 175, 175);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+}
+
+.media {
+    background-image: url(./images/media.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-color: rgb(92, 92, 92);
+    background-blend-mode: multiply;  
+}
+
+
+.banner-image {
+    background-image: url(./images/image1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.accordion {
+    --bs-accordion-border-color: rgb(27, 26, 26);
+    --bs-accordion-border-radius: none;
+
+    
+}
+
+.accordion-item {
+    border-radius: 5px !important;
+    background-color: rgb(27, 26, 26) !important;
+}
+
+
+.accordion-button-custom {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+    font-size: 1rem;
+    color: var(--bs-accordion-btn-color);
+    text-align: left;
+    background-color: var(--bs-accordion-btn-bg);
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: var(--bs-accordion-transition);
+    background-color: rgb(27, 26, 26) !important;
+}
+
+/* Media */
+
+@media (max-width:576px) {
+
+    .border-top-custom {
+        border-top: 3px ridge black !important;
+    }
+    .carousel-caption {
+        left: 10%;
+        right: 10%;
+       }
+
+}
+
+@media (min-width: 992px ) {
+
+    .carousel-img-custom {
+        height: 80vh !important;
+    } 
+
+    }
